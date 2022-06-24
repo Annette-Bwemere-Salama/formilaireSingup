@@ -1,3 +1,15 @@
 main {
-    display: flex;
+        display: flex;
+        justify-content: column;
 }
+
+
+    section {
+        padding: 3, 5em;
+        background-color: red;
+        border-radius: 3px;
+    }
+
+    section:last-child {
+        background-color: green;
+    }
