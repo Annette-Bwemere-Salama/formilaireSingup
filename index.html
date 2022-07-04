@@ -16,15 +16,17 @@
             <p>Lorem ipsum <code></code></p>
         </section>
         <section>
-            <form action="">
-                <input type="text" placeholder="Ton prenom ici">
-                <input type="text" placeholder="Ton nom ici">
-                <input type="mail" placeholder="Ton adresse mail ici">
-                <input type="password" placeholder="********">
+            <form action="" id="registre">
+                <input type="text" class="mon_input" placeholder="Ton prenom ici">
+                <input type="text" class="mon_input" placeholder="Ton nom ici">
+                <input type="mail" id="mon_mail" placeholder="Ton adresse mail ici">
+                <input type="password" id="password" placeholder="********" pattern="^(08)[0-459]\d{7}$">
                 <input type="submit" value="claim">
             </form>
         </section>
     </main>
+    <script src="jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
     <script src="index.js"></script>
 </body>
 
